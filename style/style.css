@@ -236,3 +236,20 @@ main section{
     border: 0px;
 
 }
+/* footer section */
+.foot-title{
+    color: #E55473;
+    
+    font-size: 48px;
+    
+    font-weight: 900;
+ 
+}
+footer{
+    justify-items: center;
+    background-color: black;
+}
+.foot{
+    color: #FFF;
+
+}
