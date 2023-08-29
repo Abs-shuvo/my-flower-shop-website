@@ -71,26 +71,31 @@ main section{
     justify-content:space-between;
     box-sizing: border-box;
     color: #FFF;
+    gap: 8px;
 }
 .flower{
-    float: left;
-    width:100%;
+    
+    width:80%;
     padding: 20px;
+    
 }
 .flower-1 img{
     width: 370px;
     height: 370px;
     flex-shrink: 0;
+    padding: 25px;
 }
 .flower-2 img{
     width: 310px;
     height: 428px;
     flex-shrink: 0;
+    padding: 25px;
 }
 .flower-3 img{
     width: 314px;
     height: 471px;
     flex-shrink: 0;
+    padding: 25px;
 }
 .flower-1 {
     border-radius: 300px 300px 0px 0px;
@@ -118,3 +123,21 @@ main section{
     line-height: 35px;
 }
 /* customer care section */
+.customer-care{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 120px;
+    margin-right: 0px;
+}
+.customer-care img{
+   
+   justify-items: center;
+   padding-left: 80px;
+}
+.customer-description{
+    padding: 5px;
+}
