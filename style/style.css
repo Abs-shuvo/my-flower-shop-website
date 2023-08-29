@@ -2,6 +2,13 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.primary-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
 .btn-primary{
     color: #FFF;
     font-size: 20px;
@@ -18,24 +25,96 @@ body{
 .header{
     background: rgba(229, 84, 115, 0.10);
 }
+/* banner section */
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
-     max-width: 530px;
-}
 .banner-title{
     color: #272727;
     font-size: 80px;
-    font-weight: 900;
+   font-weight: 900;
 }
-.banner-description{
+.banner-content{
+     max-width: 530px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+main section{
+    margin-top: 130px ;
+}
+/* feutured section */
+.feautured-flower{
+    text-align: center;
+}
+.feuture-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+.feuture-description{
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 30px; 
     margin-bottom: 50px;
 }
+.feutureed-flower-container{
+    display:flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    color: #FFF;
+}
+.flower{
+    float: left;
+    width:100%;
+    padding: 20px;
+}
+.flower-1 img{
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+}
+.flower-2 img{
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+}
+.flower-3 img{
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+}
+.flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.fl-text{
+    display:flex;
+    justify-content:space-around;
+    box-sizing: border-box; 
+}
+.flower-comments{
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+}
+/* customer care section */
