@@ -248,6 +248,7 @@ main section{
 footer{
     justify-items: center;
     background-color: black;
+    text-align: center;
 }
 .foot{
     color: #FFF;
